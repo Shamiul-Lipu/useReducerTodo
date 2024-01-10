@@ -21,7 +21,7 @@ const TodoComponent = () => {
   };
 
   return (
-    <div style={{ textAlign: "center", margin: "20px" }}>
+    <div className="h-screen w-full flex justify-center items-center">
       <h1>ADD TODO</h1>
       <form onSubmit={handleSumbit}>
         <label htmlFor="title">Task</label>
